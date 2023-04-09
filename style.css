@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.9)), url("imgs/espaco.jpg");
+}
+img {
+    border-radius: 50%;
+}
+#sol{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%,-52%);  
+    filter:drop-shadow(0px 0px 8px #ecdb6d); 
+}
+.img-sol{
+    animation: loading 30s linear infinite;
+}
+.mercurio{
+    position: absolute;
+    top: 40%;
+    left: -6%;
+    translate: translate(-40%, 40%);
+}
+#mercurio-orbita{
+    position: relative;
+    border-radius: 50%;
+    top: 17.4rem;
+    left: 41rem;
+    height: 10rem;
+    width: 10rem;
+    border: 1px rgba(128, 128, 128, 0.646) double;
+    animation: 1s linear infinite;
+}
+@keyframes loading{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#mercurio-orbita{
+    animation: loading 10s linear infinite;
+}
+.venus{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translate(-40%, -30%);
+}
+#venus-orbita{
+    animation: loading 10s linear infinite;
+}
+#venus-orbita{
+    position: relative;
+    border: 1px rgba(128, 128, 128, 0.667) double;
+    border-radius: 50%;
+    top: 5.7rem;
+    left: 39.5rem;
+    height: 13rem;
+    width: 13rem;
+}
+.terra{
+    position:absolute;
+    left: 50%;
+    top: -20px;
+}
+#terra-orbita{
+    position: relative;
+    top:-9.1rem;
+    width: 16rem;
+    height: 16rem;
+    left: 38rem;
+    border-radius: 50%;
+    border: 1px rgba(128, 128, 128, 0.688) double;
+}
+#terra-orbita{
+    animation: loading 9s linear infinite;
+}
+.marte{
+    position: absolute;
+    left: -5%;
+    top:8rem;
+}
+#marte-orbita{
+    position: relative;
+    width: 20rem;
+    left: 35.9rem;
+    top: -27rem;
+    border-radius: 50%;
+    height: 20rem;
+    border: 1px rgba(128, 128, 128, 0.687) double;
+}
+#marte-orbita{
+    animation: loading 9s linear infinite;
+}
+.jupiter{
+    position: absolute;
+    top: 50%;
+    left: -1.8rem;
+}
+#jupiter-orbita{
+  animation: loading 10s linear infinite;
+}
+#jupiter-orbita{
+    position:relative;
+    border: 1px rgba(128, 128, 128, 0.707) double;
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+    top: -48.8rem;
+    left: 33.8rem;
+    z-index: 3;
+}
+.saturno{
+    position: absolute;
+    top: 50%;
+    left: -8%;
+}
+#saturno-orbita{
+    position: relative;
+    border: 1px rgba(128, 128, 128, 0.712) double;
+    width: 29rem;
+    height: 29rem;
+    top:-75.4rem;
+    left: 31rem;
+    border-radius: 50%;
+}
+#saturno-orbita{
+    animation: loading 9s linear infinite;;
+}
+.urano{
+    position: absolute;
+    top:-1.2%;
+    left: 20rem;
+}
+#urano-orbita{
+    position: relative;
+    border: 1px rgba(128, 128, 128, 0.611) double;
+    width: 33.5rem;
+    height: 33.5rem;
+    top:-106.7rem;
+    left: 28.6rem;
+    border-radius: 50%;
+}
+#urano-orbita{
+    animation: loading 10s linear infinite;
+}
+.netuno{
+    position: absolute;
+    top:-1%;
+    left: 24rem; 
+}
+#netuno-orbita{
+    position: relative;
+    border: 1px rgba(128, 128, 128, 0.719) solid;
+    width: 37.5rem;
+    height: 37.5rem;
+    top:-142.4rem;
+    left: 26.5rem;
+    border-radius: 50%;
+}
+#netuno-orbita{
+    animation: loading 11s linear infinite;
+}
